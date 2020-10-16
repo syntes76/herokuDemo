@@ -12,10 +12,12 @@
 	<artifactId>herokuDemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>herokuDemo</name>
+	<packaging>jar</packaging>
+
 	<description>Demo heroku project with Spring Boot</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 
 	<dependencies>
