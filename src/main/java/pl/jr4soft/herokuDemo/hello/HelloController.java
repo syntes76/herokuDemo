@@ -15,4 +15,9 @@ class HelloController {
         return "main";
     }
 
+    @GetMapping(value = "/check")
+    public String check(){
+        return "OK";
+    }
+
 }
