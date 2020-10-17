@@ -11,13 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 class HelloController {
 
     @GetMapping(value = "/")
-    public String hello(){
+    String hello(){
         return "main";
     }
-
-    @GetMapping(value = "/check")
-    public String check(){
-        return "OK";
-    }
-
 }
