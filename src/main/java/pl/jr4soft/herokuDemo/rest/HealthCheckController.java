@@ -12,7 +12,7 @@ import static org.springframework.http.HttpStatus.OK;
  */
 @RestController
 @RequestMapping(value = "/health")
-public class HealtCheckController {
+public class HealthCheckController {
 
     @ResponseStatus(OK)
     @GetMapping()
